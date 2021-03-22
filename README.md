@@ -12,7 +12,7 @@ javascript (react.js, node.js)
 ### To Use:
 
 * Open a terminal shell and navigate to the desired directory 
-* Run `git clone https://github.com/Cannibiz/Cannibiz-site.git`
+* Run `git clone https://github.com/Cannibiz/Cannibiz.git`
 
 
 ### To run: 
