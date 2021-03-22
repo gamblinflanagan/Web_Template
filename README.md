@@ -11,8 +11,16 @@ javascript (react.js, node.js)
 
 ### To Use:
 
-* Open a terminal shell and navigate to the desired directory 
-* Run `git clone https://github.com/Cannibiz/Cannibiz.git`
+* Download Git (link)
+* Download VS code (link)
+* create a directory or workspace to clone repo
+
+* Open VS code click view then command palette
+* type `Git: Clone` then click enter 
+* copy and paste this link in the text box and click enter `https://github.com/Cannibiz/Cannibiz`
+* choose the directory to clone the repo to  
+* login to github with this access token `fd81e4cc786ddd20f7667d8636c1efa0d9438488`
+* after cloning process is complete click open
 
 
 ### To run: 
