@@ -2,8 +2,6 @@ import sys
 import os
 import flask 
 
-#initial comment line
-
 
 ''' This Function creates the front end portion of the web application '''
 app = flask.Flask(__name__)
