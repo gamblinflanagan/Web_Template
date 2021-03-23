@@ -24,7 +24,7 @@ javascript (react.js, node.js)
 * type `Git: Clone` then click enter 
 * copy and paste this link in the text box and click enter `https://github.com/Cannibiz/Cannibiz`
 * choose the directory to clone the repo to  
-* login to github with this access token `fd81e4cc786ddd20f7667d8636c1efa0d9438488`
+* login to github on the web browser
 * after cloning process is complete click open
 * install python extension in vs code (pop up should come up)
 
