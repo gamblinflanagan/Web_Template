@@ -36,7 +36,7 @@ javascript (react.js, node.js)
 ### DO NOT EVER PUSH TO MASTER BRANCH
 
 #### Installing Flask
-* open a termnal in vs code and type `python3 -m venv`
+* open a termnal in vs code and type `python3 -m venv venv`
 * if pop up asks if you want to select this environment for the workspace click yes
 * install any libraies if they popup
 * type in the terminal `venv\Scripts\activate` 
