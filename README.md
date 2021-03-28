@@ -1,6 +1,6 @@
-# Cannibiz-site
-## Created March 22nd 2021
-## This application will be the main webiste for Cannibiz
+# Flask-React Web App Template
+## Created March 28th 2021
+## This application will serve as a template for furutre projects
 
 ### Languages used
 
@@ -23,7 +23,7 @@ javascript (react.js, node.js)
 * create a directory or workspace to clone repo
 * Open VS code click view then command palette
 * type `Git: Clone` then click enter 
-* copy and paste this link in the text box and click enter `https://github.com/Cannibiz/Cannibiz`
+* copy and paste this link in the text box and click enter `https://github.com/gamblinflanagan/Web_Template`
 * choose the directory to clone the repo to  
 * login to github on the web browser
 * after cloning process is complete click open
