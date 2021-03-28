@@ -40,7 +40,7 @@ javascript (react.js, node.js)
 * if pop up asks if you want to select this environment for the workspace click yes
 * install any libraies if they popup
 * type in the terminal `venv\Scripts\activate` 
-* run the command `pip instal flask`
+* run the command `pip install flask`
 * more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
 
 
@@ -51,6 +51,7 @@ javascript (react.js, node.js)
 * click Run and Debug
 * click Flask in the dropdown menue
 * ctr+click the link `http://127.0.0.1:5000/` in the terminal
+* or run command in terminal `python -m flask run`
 
 ### To push code to github
 
