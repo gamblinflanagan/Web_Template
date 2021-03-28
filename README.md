@@ -29,8 +29,7 @@ javascript (react.js, node.js)
 * after cloning process is complete click open
 * install python extension in vs code (pop up should come up)
 
-### Important
-
+### IMPORTANT
 * open a terminal in vs code
 * type `git checkout -b "your branch name here`
 * type `git pull origin master`
@@ -55,9 +54,9 @@ javascript (react.js, node.js)
 *  run the command `yarn add --dev "@babel/preset-react"`
 *  run the command `yarn add --dev "babel-loader"`
 *  run the command `yarn add --dev "file-loader"`
+* more info here `https://github.com/IceWreck/Flask-React-Boilerplate`
 
 ### To run: 
-
 * run command in terminal `yarn webpack --mode development --watch`
 * run command in a new terminal `python -m flask run`
 * ctr+click the link `http://127.0.0.1:5000/` in the terminal
