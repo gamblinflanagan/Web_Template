@@ -59,3 +59,5 @@ javascript (react.js, node.js)
 * run `git add "name of file to add` or `git add .` to add all files
 * run `git commit -m "what you changed"`
 * run `git push -u origin "your branch name"`
+
+* `yarn webpack --mode development --watch`

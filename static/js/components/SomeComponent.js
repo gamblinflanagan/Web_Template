@@ -17,8 +17,17 @@ const SomeComponent = () => {
                 <h1>Cannibiz home page</h1>
                 <h2 id="try"></h2>
             </div>
+            <br />
+            <div class="login-box">
+				<input type="password" id="password" name="password" />
+			</div>
+            <br />
+            <div class="buttons">
+				<button class="login-button">
+					Submit
+				</button>
+			</div>
         </div>
-
     );
 };
 
