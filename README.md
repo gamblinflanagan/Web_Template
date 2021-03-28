@@ -62,6 +62,10 @@ javascript (react.js, node.js)
 * run command in a new terminal `python -m flask run`
 * ctr+click the link `http://127.0.0.1:5000/` in the terminal
 
+### IMPORTANT
+* when changes are made to html/js/css the cache might need to be cleared to see changes
+* This extension is recomended (works in chrome and opera) `https://chrome.google.com/webstore/detail/clear-browsing-data/bjilljlpencdcpihofiobpnfgcakfdbe?hl=en`
+
 
 ### To push code to github
 
