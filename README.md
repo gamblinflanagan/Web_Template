@@ -40,7 +40,7 @@ javascript (react.js, node.js)
 * open a termnal in vs code and type `python3 -m venv venv`
 * if pop up asks if you want to select this environment for the workspace click yes
 * install any libraies if they popup
-* type in the terminal `venv\Scripts\activate` 
+* type in the terminal if windows - `venv\Scripts\activate` if mac - `venv/Scripts/activate` 
 * run the command `pip install flask`
 * more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
 
