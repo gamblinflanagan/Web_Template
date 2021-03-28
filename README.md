@@ -11,10 +11,11 @@ javascript (react.js, node.js)
 
 ### To Use:
 
-#### Download stuff:
+#### Download and install stuff:
 * Download and install Git `https://git-scm.com/download/win`
 * Download and install VS code `https://code.visualstudio.com`
 * Download and install the latest version of python `https://www.python.org/downloads/`
+* Download and install the latest LTS version of Node.js (.msi for windows, .pkg for mac os) `https://nodejs.org/en/download/` 
 
 
 
@@ -43,15 +44,24 @@ javascript (react.js, node.js)
 * run the command `pip install flask`
 * more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
 
+### Installing Yarn, React, WebPack
+* open a terminal and run the command `npm install --global yarn`
+*  run the command `yarn add react react-dom`
+*  run the command `yarn add -D webpack webpack-cli webpack-dev-server`
+*  run the command `yarn add -D style-loader css-loader`
+*  run the command `yarn add --dev "@babel/preset-env"`
+*  run the command `yarn add --dev "@babel/preset-env"`
+*  run the command `yarn add --dev "@babel/core" `
+*  run the command `yarn add --dev "@babel/preset-react"`
+*  run the command `yarn add --dev "babel-loader"`
+*  run the command `yarn add --dev "file-loader"`
 
 ### To run: 
 
-* make sure the file app.py is open and selected
-* click the run and debug button on the left most panel or press ctr+shift+d
-* click Run and Debug
-* click Flask in the dropdown menue
+* run command in terminal `yarn webpack --mode development --watch`
+* run command in a new terminal `python -m flask run`
 * ctr+click the link `http://127.0.0.1:5000/` in the terminal
-* or run command in terminal `python -m flask run`
+
 
 ### To push code to github
 
@@ -59,5 +69,3 @@ javascript (react.js, node.js)
 * run `git add "name of file to add` or `git add .` to add all files
 * run `git commit -m "what you changed"`
 * run `git push -u origin "your branch name"`
-
-* `yarn webpack --mode development --watch`
