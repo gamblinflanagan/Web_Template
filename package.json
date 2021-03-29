@@ -1,8 +1,8 @@
 {
-  "name": "Cannibiz",
+  "name": "Web_Template",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Cannibiz/Cannibiz",
+  "repository": "https://github.com/gamblinflanagan/Web_Template",
   "author": "gamblinflanagan <gamblinflanagan97@gmail.com>",
   "license": "MIT",
   "dependencies": {
