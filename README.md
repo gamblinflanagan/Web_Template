@@ -41,7 +41,7 @@ javascript (react.js, node.js)
 * install any libraies if they popup
 * type in the terminal if windows - `venv\Scripts\activate` if mac - `venv/Scripts/activate` 
 * run the command `pip install flask`
-* more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
+* more info `https://flask.palletsprojects.com/en/1.1.x/installation/`, `https://github.com/babel/babel/issues/6593`
 
 ### Installing Yarn, React, WebPack
 * open a terminal and run the command `npm install --global yarn`

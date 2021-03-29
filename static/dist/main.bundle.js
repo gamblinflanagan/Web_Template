@@ -110,23 +110,23 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
-/***/ "./static/js/SomePage.js":
+/***/ "./static/js/MainPage.js":
 /*!*******************************!*\
-  !*** ./static/js/SomePage.js ***!
+  !*** ./static/js/MainPage.js ***!
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_SomeComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/SomeComponent */ \"./static/js/components/SomeComponent.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\n\n\n\nvar SomePage = function SomePage() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components_SomeComponent__WEBPACK_IMPORTED_MODULE_0__.default, null);\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(SomePage, null), document.getElementById(\"render-react-here\"));\n\n//# sourceURL=webpack://Web_Template/./static/js/SomePage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_MainComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/MainComponent */ \"./static/js/components/MainComponent.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\n\n\n\nvar SomePage = function SomePage() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_components_MainComponent__WEBPACK_IMPORTED_MODULE_0__.default, null);\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(SomePage, null), document.getElementById(\"render-react-here\"));\n\n//# sourceURL=webpack://Web_Template/./static/js/MainPage.js?");
 
 /***/ }),
 
-/***/ "./static/js/components/SomeComponent.js":
+/***/ "./static/js/components/MainComponent.js":
 /*!***********************************************!*\
-  !*** ./static/js/components/SomeComponent.js ***!
+  !*** ./static/js/components/MainComponent.js ***!
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./static/js/components/style.css\");\n //import logo_image from \"../../img/react.png\";\n\n\n/*\r\n            <p>\r\n                <h1 className=\"some-style-class\">Hello, this is a react component.</h1>\r\n                <br />\r\n                <img src={logo_image} height=\"100px\" />\r\n            </p>*/\n\nvar SomeComponent = function SomeComponent() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"login\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"login-text\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Cannibiz home page\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", {\n    id: \"try\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"br\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    \"class\": \"login-box\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"input\", {\n    type: \"password\",\n    id: \"password\",\n    name: \"password\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"br\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    \"class\": \"buttons\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    \"class\": \"login-button\"\n  }, \"Submit\")));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SomeComponent);\n\n//# sourceURL=webpack://Web_Template/./static/js/components/SomeComponent.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _images_dragon_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../images/dragon.jpg */ \"./static/images/dragon.jpg\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./static/js/components/style.css\");\n\n\n\n\nvar SomeComponent = function SomeComponent() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"login\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"login-text\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Web Template Main Page\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", {\n    id: \"try\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"br\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    \"class\": \"login-box\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"input\", {\n    type: \"password\",\n    id: \"password\",\n    name: \"password\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"br\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    \"class\": \"buttons\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    \"class\": \"login-button\"\n  }, \"Submit\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"br\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: _images_dragon_jpg__WEBPACK_IMPORTED_MODULE_1__.default\n  }));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SomeComponent);\n\n//# sourceURL=webpack://Web_Template/./static/js/components/MainComponent.js?");
 
 /***/ }),
 
@@ -137,6 +137,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n\\t\\t\\tbackground-color: #F0F8FF;\\r\\n\\t\\t\\ttext-align: center;\\r\\n\\t\\t}\\r\\n\\t\\t\\r\\n\\t\\t.login {\\r\\n\\t\\t\\tbackground-color: dodgerblue;\\r\\n\\t\\t\\twidth: 500px;\\r\\n\\t\\t\\theight: 600px;\\r\\n\\t\\t\\tmargin-left: 30%;\\r\\n\\t\\t\\tmargin-top: 30px;\\r\\n\\t\\t\\tmargin-bottom: 30px;\\r\\n\\t\\t\\tposition: absolute;\\r\\n\\t\\t\\tborder-radius: 12px;\\r\\n\\t\\t}\\r\\n\\t\\t\\r\\n\\t\\t.login-text {\\r\\n\\t\\t\\tmargin-top: 175px;\\r\\n\\t\\t\\ttext-align: center;\\r\\n\\t\\t\\tcolor: white;\\r\\n\\t\\t\\tfont-family: \\\"lucida handwriting\\\";\\r\\n\\t\\t}\\r\\n\\t\\t\\r\\n\\t\\t.login-box {\\r\\n\\t\\t\\ttext-align: center;\\r\\n\\t\\t}\\r\\n\\t\\t\\r\\n\\t\\t.buttons {\\r\\n\\t\\t\\ttext-align: center;\\r\\n\\t\\t}\\r\\n\\t\\t\\r\\n\\t\\t.login-button {\\r\\n\\t\\t\\tbackground-color: white;\\r\\n\\t\\t\\tborder: none;\\r\\n\\t\\t\\tcolor: black;\\r\\n\\t\\t\\tpadding: 10px 52px;\\r\\n\\t\\t\\ttext-align: center;\\r\\n\\t\\t\\ttext-decoration: none;\\r\\n\\t\\t\\tdisplay: inline-block;\\r\\n\\t\\t\\tfont-size: 16px;\\r\\n\\t\\t\\tborder-radius: 24px;\\r\\n\\t\\t\\tcursor: pointer;\\r\\n\\t\\t\\tfont-family: \\\"lucida handwriting\\\";\\r\\n\\t\\t}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://Web_Template/./static/js/components/style.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./static/images/dragon.jpg":
+/*!**********************************!*\
+  !*** ./static/images/dragon.jpg ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"../../static/dist/dragon.jpg\");\n\n//# sourceURL=webpack://Web_Template/./static/images/dragon.jpg?");
 
 /***/ }),
 
@@ -211,6 +221,18 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -227,12 +249,32 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./static/js/SomePage.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./static/js/MainPage.js");
 /******/ 	
 /******/ })()
 ;
