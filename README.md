@@ -41,7 +41,7 @@ javascript (react.js, node.js)
 * install any libraies if they popup
 * type in the terminal if windows - `venv\Scripts\activate` if mac - `venv/Scripts/activate` 
 * run the command `pip install flask`
-* more info `https://flask.palletsprojects.com/en/1.1.x/installation/`, `https://github.com/babel/babel/issues/6593`
+* more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
 
 ### Installing Yarn, React, WebPack
 * open a terminal and run the command `npm install --global yarn`
@@ -53,7 +53,7 @@ javascript (react.js, node.js)
 *  run the command `yarn add --dev "@babel/preset-react"`
 *  run the command `yarn add --dev "babel-loader"`
 *  run the command `yarn add --dev "file-loader"`
-* more info here `https://github.com/IceWreck/Flask-React-Boilerplate`
+* more info here `https://github.com/IceWreck/Flask-React-Boilerplate`, , `https://github.com/babel/babel/issues/6593`
 
 ### To run: 
 * run command in terminal `yarn webpack --mode development --watch`
