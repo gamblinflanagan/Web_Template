@@ -31,9 +31,8 @@ javascript (react.js, node.js)
 
 ### IMPORTANT
 * open a terminal in vs code
-* type `git checkout -b "your branch name here`
-* type `git pull origin master`
-### DO NOT EVER PUSH TO MASTER BRANCH
+* change remote to your repo - enter `git remote set-url origin "link to your git repo"`
+
 
 #### Installing Flask
 * open a termnal in vs code and type `python3 -m venv venv`
@@ -66,7 +65,6 @@ javascript (react.js, node.js)
 
 
 ### To push code to github
-
 * run `git status`
 * run `git add "name of file to add` or `git add .` to add all files
 * run `git commit -m "what you changed"`
