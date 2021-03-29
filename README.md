@@ -49,7 +49,6 @@ javascript (react.js, node.js)
 *  run the command `yarn add -D webpack webpack-cli webpack-dev-server`
 *  run the command `yarn add -D style-loader css-loader`
 *  run the command `yarn add --dev "@babel/preset-env"`
-*  run the command `yarn add --dev "@babel/preset-env"`
 *  run the command `yarn add --dev "@babel/core" `
 *  run the command `yarn add --dev "@babel/preset-react"`
 *  run the command `yarn add --dev "babel-loader"`
