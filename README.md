@@ -38,12 +38,12 @@ javascript (react.js, node.js)
 * open a termnal in vs code and type `python3 -m venv venv`
 * if pop up asks if you want to select this environment for the workspace click yes
 * install any libraies if they popup
-* type in the terminal if windows - `venv\Scripts\activate` if mac - `venv/Scripts/activate` 
-* run the command `pip install flask`
+* type in the terminal in vs code if windows - `venv\Scripts\activate` if mac - `venv/Scripts/activate` 
+* run the command i vs code terminal `pip install flask`
 * more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
 
 ### Installing Yarn, React, WebPack
-* open a terminal and run the command `npm install --global yarn`
+* open a terminal in vs code and run the command `npm install --global yarn`
 *  run the command `yarn add react react-dom`
 *  run the command `yarn add -D webpack webpack-cli webpack-dev-server`
 *  run the command `yarn add -D style-loader css-loader`
@@ -55,8 +55,8 @@ javascript (react.js, node.js)
 * more info here `https://github.com/IceWreck/Flask-React-Boilerplate`, , `https://github.com/babel/babel/issues/6593`
 
 ### To run: 
-* run command in terminal `yarn webpack --mode development --watch`
-* run command in a new terminal `python -m flask run`
+* run command in terminal in vs code `yarn webpack --mode development --watch`
+* run command in a new terminal in vs code `python -m flask run`
 * ctr+click the link `http://127.0.0.1:5000/` in the terminal
 
 ### IMPORTANT
