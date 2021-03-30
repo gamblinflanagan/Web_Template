@@ -1,6 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import logo from "../../images/dragon.jpg";
 import "./style.css";
+
+
+
 
 const MainComponent = () => {
     return (
@@ -15,9 +19,11 @@ const MainComponent = () => {
 			</div>
             <br />
             <div className="buttons">
-				<button className="login-button">
-					Submit
-				</button>
+				<Link to='/second'>
+                    <button className="login-button">
+                        Second
+                    </button>
+                </Link>
 			</div>
             <br />
             <img src={logo} />
