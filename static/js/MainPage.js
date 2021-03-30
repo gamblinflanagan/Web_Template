@@ -1,9 +1,10 @@
 import MainComponent from "./components/MainComponent";
 import React from "react";
-import ReactDOM from "react-dom";
 
-const SomePage = () => {
-    return <MainComponent />;
-};
+export default function MainPage() {
 
-ReactDOM.render(<SomePage />, document.getElementById("render-react-here"));
+    return (
+        <MainComponent />
+    );
+}
+
