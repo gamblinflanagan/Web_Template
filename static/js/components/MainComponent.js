@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../images/dragon.jpg";
 import "./style.css";
 
-const SomeComponent = () => {
+const MainComponent = () => {
     return (
         <div className="login">
             <div className="login-text">
@@ -25,4 +25,4 @@ const SomeComponent = () => {
     );
 };
 
-export default SomeComponent;
+export default MainComponent;

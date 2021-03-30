@@ -1,10 +1,20 @@
-import MainComponent from "./components/MainComponent";
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+//import componets here
+import MainComponent from "./components/MainComponent";
+import SecondComponent from "./components/SecondComponent";
+
 
 export default function MainPage() {
 
     return (
-        <MainComponent />
+        <Router>
+            <Switch>
+                <Route exact path="/"><MainComponent /></Route>
+                <Route exact path="/second"><SecondComponent /></Route>
+            </Switch>
+        </Router>
     );
 }
 

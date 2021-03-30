@@ -48,10 +48,12 @@ javascript (react.js, node.js)
 *  run the command `yarn add -D webpack webpack-cli webpack-dev-server`
 *  run the command `yarn add -D style-loader css-loader`
 *  run the command `yarn add --dev "@babel/preset-env"`
-*  run the command `yarn add --dev "@babel/core" `
+*  run the command `yarn add --dev "@babel/core"`
 *  run the command `yarn add --dev "@babel/preset-react"`
+*  run the command `yarn add --dev "@babel/runtime"`
 *  run the command `yarn add --dev "babel-loader"`
 *  run the command `yarn add --dev "file-loader"`
+*  run the command `npm install --save react-router-dom`
 * more info here `https://github.com/IceWreck/Flask-React-Boilerplate`, , `https://github.com/babel/babel/issues/6593`
 
 ### To run: 
