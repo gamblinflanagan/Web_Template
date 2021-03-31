@@ -9,11 +9,11 @@ app = flask.Flask(__name__)
 def index():
     print("reached index method")
     return flask.render_template("index.html")
-'''
+
 @app.route('/second') # starts app
 def second():
     return flask.render_template("second.html")
-
+'''
 @app.route('/third') # starts app
 def third():
     return flask.render_template("third.html")

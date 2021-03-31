@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import logo from "../../images/dragon.jpg";
 import "./style.css";
 
-const SomeComponent = () => {
+
+
+
+const MainComponent = () => {
     return (
         <div className="login">
             <div className="login-text">
@@ -10,14 +14,16 @@ const SomeComponent = () => {
                 <h2 id="try">works on all machines</h2>
             </div>
             <br />
-            <div class="login-box">
+            <div className="login-box">
 				<input type="password" id="password" name="password" />
 			</div>
             <br />
-            <div class="buttons">
-				<button class="login-button">
-					Submit
-				</button>
+            <div className="buttons">
+				<Link to='/second'>
+                    <button className="login-button">
+                        Second
+                    </button>
+                </Link>
 			</div>
             <br />
             <img src={logo} />
@@ -25,4 +31,4 @@ const SomeComponent = () => {
     );
 };
 
-export default SomeComponent;
+export default MainComponent;
