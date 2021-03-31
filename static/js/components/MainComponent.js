@@ -7,7 +7,7 @@ const SomeComponent = () => {
         <div className="login">
             <div className="login-text">
                 <h1>Web Template Main Page</h1>
-                <h2 id="try"></h2>
+                <h2 id="try">works on all machines</h2>
             </div>
             <br />
             <div class="login-box">
