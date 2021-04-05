@@ -54,6 +54,8 @@ javascript (react.js, node.js)
 *  run the command `yarn add --dev "babel-loader"`
 *  run the command `yarn add --dev "file-loader"`
 *  run the command `npm install --save react-router-dom`
+*  run the command `yarn add bootstrap`
+*  run the command `yarn add bootstrap react-bootstrap`
 * more info here `https://github.com/IceWreck/Flask-React-Boilerplate`, , `https://github.com/babel/babel/issues/6593`
 
 ### To run: 
