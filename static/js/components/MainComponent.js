@@ -1,5 +1,9 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col, Button, Alert, Breadcrumb, Card, Form} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+
+//import componets here
 import logo from "../../images/dragon.jpg";
 import "./style.css";
 

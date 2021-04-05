@@ -38,7 +38,10 @@ javascript (react.js, node.js)
 * open a termnal in vs code and type `python3 -m venv venv`
 * if pop up asks if you want to select this environment for the workspace click yes
 * install any libraies if they popup
-* type in the terminal in vs code if windows - `venv\Scripts\activate` if mac - `venv/Scripts/activate` 
+* type in the terminal in vs code if windows - `venv\Scripts\activate` if mac - `venv/Scripts/activate`
+* click View in the top nav bar and select command pallet
+* type `Python: Select Interpreter` and press enter
+* select the one with `(venv)` in the description
 * run the command i vs code terminal `pip install flask`
 * more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
 
@@ -56,7 +59,7 @@ javascript (react.js, node.js)
 *  run the command `npm install --save react-router-dom`
 *  run the command `yarn add bootstrap`
 *  run the command `yarn add bootstrap react-bootstrap`
-* more info here `https://github.com/IceWreck/Flask-React-Boilerplate`, , `https://github.com/babel/babel/issues/6593`
+* more info here `https://github.com/IceWreck/Flask-React-Boilerplate`, `https://github.com/babel/babel/issues/6593`
 
 ### To run: 
 * run command in terminal in vs code `yarn webpack --mode development --watch`
