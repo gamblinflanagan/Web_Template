@@ -12,10 +12,11 @@ import "./style.css";
 
 const MainComponent = () => {
     return (
-        <div className="login">
-           <Container>
-                <Row>
-                    <Col md>
+        <div>
+        <Container>
+            <Row>
+                <Col md>
+                    <div className="login">
                         <div className="login-text">
                             <h1>Web Template Main Page</h1>
                             <h2 id="try">works on all machines</h2>
@@ -38,9 +39,10 @@ const MainComponent = () => {
                         <br />
                         <br />
                         <Button id="bootButton">Test</Button>*/}
-                    </Col>
-                </Row>
-            </Container>
+                     </div>
+                </Col>
+            </Row>
+        </Container>
         </div>
     );
 };

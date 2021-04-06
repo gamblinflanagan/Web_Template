@@ -4,14 +4,30 @@ body {
 		}
 		
 		.login {
+			text-align: center;
+			justify-content: center;
 			background-color: dodgerblue;
-			width: 500px;
-			height: 600px;
-			margin-left: 30%;
+			margin-left: 25%;
+			margin-right: 25%;
 			margin-top: 30px;
 			margin-bottom: 30px;
+			padding-bottom: 40px;
 			position: absolute;
 			border-radius: 12px;
+		}
+
+		@media only screen and (max-width: 539px) {
+			.login {
+				margin-left: 15%;
+				margin-right: 25%;
+			}
+		}
+
+		@media only screen and (max-width: 410px) {
+			.login {
+				margin-left: 12%;
+				margin-right: 25%;
+			}
 		}
 		
 		.login-text {
