@@ -29,6 +29,13 @@ body {
 				margin-right: 25%;
 			}
 		}
+
+		@media only screen and (max-width: 320px) {
+			.login {
+				margin-left: 3.5%;
+				margin-right: 25%;
+			}
+		}
 		
 		.login-text {
 			margin-top: 75px;
@@ -70,4 +77,36 @@ body {
 		  
 			/*width="560"
 			height="315"*/
+		  }
+
+		  @media only screen and (max-width: 540px) {
+
+			.Vid iframe {
+				height: 215px;
+				width: 460px;
+			}
+		  }
+
+		  @media only screen and (max-width: 440px) {
+
+			.Vid iframe {
+				height: 215px;
+				width: 360px;
+			}
+		  }
+
+		  @media only screen and (max-width: 400px) {
+
+			.Vid iframe {
+				height: 215px;
+				width: 310px;
+			}
+		  }
+
+		  @media only screen and (max-width: 320px) {
+
+			.Vid iframe {
+				height: 215px;
+				width: 260px;
+			}
 		  }

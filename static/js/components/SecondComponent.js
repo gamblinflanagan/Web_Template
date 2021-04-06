@@ -8,10 +8,11 @@ import "./style.css";
 
 const SecondComponent = () => {
     return (
-        <div className="Second">
-            <Container>
-                <Row>
-                    <Col md>
+        <div>
+        <Container>
+            <Row>
+                <Col md>
+                    <div className="Second">
                         <h1>SECOND PAGE</h1>
                         <br />
                         <div className="buttons">
@@ -30,10 +31,11 @@ const SecondComponent = () => {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
                             ></iframe>
-                </div>
+                        </div>
+                    </div>
                 </Col>
-                </Row>
-            </Container>
+            </Row>
+        </Container>
         </div>
     );
 };
