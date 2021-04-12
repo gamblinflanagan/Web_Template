@@ -56,7 +56,7 @@ javascript (react.js, node.js)
 *  run the command `yarn add --dev "@babel/runtime"`
 *  run the command `yarn add --dev "babel-loader"`
 *  run the command `yarn add --dev "file-loader"`
-*  run the command `npm install --save react-router-dom`
+*  run the command `yarn add react-router-dom`
 *  run the command `yarn add bootstrap`
 *  run the command `yarn add bootstrap react-bootstrap`
 
