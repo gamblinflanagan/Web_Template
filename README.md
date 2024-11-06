@@ -46,6 +46,7 @@ javascript (react.js, node.js)
 * more info `https://flask.palletsprojects.com/en/1.1.x/installation/`
 
 ### Installing Yarn, React, WebPack
+## Alternative to below run yarn install
 * open a terminal in vs code and run the command `npm install --global yarn`
 *  run the command `yarn add react react-dom`
 *  run the command `yarn add -D webpack webpack-cli webpack-dev-server`
